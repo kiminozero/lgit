@@ -4,3 +4,6 @@ The first readme to use git.
 
 //back to the up version
 git reset --hard HEAD^
+
+
+git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
